@@ -16,3 +16,28 @@ Clone the repository and install the required dependencies:
 git clone https://github.com/yourgithub/ViTDepthNet.git
 cd ViTDepthNet
 pip install -r requirements.txt
+
+## Usage
+python depth_estimation.py --input path/to/image.png --output path/to/depth_map.png
+
+## Repository Structure
+
+- `models/`: Contains the hybrid transformer and CNN architecture definitions.
+- `data/`: Includes scripts for data preprocessing and loading.
+- `utils/`: Helper functions and utilities for image processing are stored here.
+- `tests/`: Scripts for module testing and validation.
+
+## Configuration
+
+Below is an example configuration for setting up the model environment and parameters:
+
+```yaml
+environment:
+  - python: 3.8
+  - pytorch: 1.7
+  - cuda: 10.1
+
+parameters:
+  - batch_size: 32
+  - learning_rate: 0.0001
+  - epochs: 100
