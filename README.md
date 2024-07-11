@@ -1,6 +1,5 @@
 # VitDepthNet
 Vision-Transformer-Depth-Net (ViTDepthNet) for Depth Estimation
-# Vision-Transformer-Depth-Net (ViTDepthNet)
 
 ## Introduction
 Welcome to the ViTDepthNet repository! This model is designed to enhance depth estimation capabilities by integrating the unique strengths of Vision Transformers (ViT) with convolutional neural networks (CNNs). It's optimized for complex indoor scenes and applicable to various fields such as augmented reality and autonomous driving.
@@ -16,4 +15,24 @@ Clone the repository and install the required dependencies:
 git clone https://github.com/yourgithub/ViTDepthNet.git
 cd ViTDepthNet
 pip install -r requirements.txt
+```
+## Usage
+To perform depth estimation:
 
+```bash
+python depth_estimation.py --input path/to/image.png --output path/to/depth_map.png
+```
+## Repository Structure
+models/: Contains definitions of the hybrid transformer and CNN architectures.
+data/: Scripts for data preprocessing and loading.
+utils/: Helper functions and utilities for image processing.
+tests/: Scripts for module testing and validation.
+
+## Acknowledgements
+This project incorporates elements from several open-source projects. We acknowledge and thank the authors and contributors of these repositories for their invaluable work:
+- [DefocusNet](https://github.com/dvl-tum/defocus-net): Pioneering work in depth estimation from defocus.
+- [UnsupervisedDepthFromFocus](https://github.com/unsupervised-depth-from-focus-team/udff): Techniques and insights in unsupervised learning for depth estimation.
+- [DeepLabV3+](https://github.com/tensorflow/models/tree/master/research/deeplab): Advanced segmentation techniques adapted for depth estimation tasks.
+- [DEReD](https://github.com/Ehzoahis/DEReD): For specific methods used in self-supervised depth estimation from defocus clues.
+## Code Availability
+The full codebase will be made publicly available upon the publication of the associated paper to ensure the integrity and citation of the research work. Stay tuned for updates following the official release of our research findings.
