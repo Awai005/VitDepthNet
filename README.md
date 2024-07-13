@@ -16,12 +16,7 @@ git clone https://github.com/yourgithub/ViTDepthNet.git
 cd ViTDepthNet
 pip install -r requirements.txt
 ```
-## Usage
-To perform depth estimation:
 
-```bash
-python depth_estimation.py --input path/to/image.png --output path/to/depth_map.png
-```
 ## Repository Structure
 models/: Contains definitions of the hybrid transformer and CNN architectures.
 data/: Scripts for data preprocessing and loading.
