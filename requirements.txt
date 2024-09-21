@@ -1,0 +1,12 @@
+numpy~=2.1.1
+
+pytorch torchvision torchaudio pytorch-cuda=12.4 -c pytorch -c nvidia
+
+scipy~=1.14.1
+
+matplotlib~=3.9.2
+tqdm~=4.66.5
+wandb~=0.16.6
+opencv~=4.10.0
+
+openexr~=3.2.2
