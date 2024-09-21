@@ -46,5 +46,4 @@ This project incorporates elements from several open-source projects. We acknowl
 - [UnsupervisedDepthFromFocus](https://github.com/unsupervised-depth-from-focus-team/udff): Techniques and insights in unsupervised learning for depth estimation.
 - [DeepLabV3+](https://github.com/tensorflow/models/tree/master/research/deeplab): Advanced segmentation techniques adapted for depth estimation tasks.
 - [DEReD](https://github.com/Ehzoahis/DEReD): For specific methods used in self-supervised depth estimation from defocus clues.
-## Code Availability
-The full codebase will be made publicly available upon the publication of the associated paper to ensure the integrity and citation of the research work. Stay tuned for updates following the official release of our research findings.
+
