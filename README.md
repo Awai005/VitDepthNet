@@ -1,5 +1,5 @@
 # VitDepthNet
-Vision-Transformer-Depth-Net (ViTDepthNet) for Depth Estimation. Link to the Course_Paper (https://drive.google.com/file/d/1QWNzDrNYYHU1vDs1N6xtPRkLGeL1seDk/view?usp=sharing)
+Vision-Transformer-Depth-Net (ViTDepthNet) for Depth Estimation. The [Course_Paper]:(https://drive.google.com/file/d/1QWNzDrNYYHU1vDs1N6xtPRkLGeL1seDk/view?usp=sharing)
 
 ## Introduction
 Welcome to the ViTDepthNet repository! This model is designed to enhance depth estimation capabilities by integrating the unique strengths of Vision Transformers (ViT) with convolutional neural networks (CNNs). It's optimized for complex indoor scenes and applicable to various fields such as augmented reality and autonomous driving.
